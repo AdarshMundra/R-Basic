@@ -1,0 +1,26 @@
+La <- list("RED","Green",c(21,32,11),TRUE,51.32,119.1)
+print(La)
+La <- list(c("Jan","Feb","Mar"),matrix(c(3,9,5,1,-2,8),nrow =2),list("greem",12.3))
+names(La) <- c("1st Quadent","A_Matrix","A Inner List")
+print(La[1])
+print(La[3])
+print(La$A_Matrix)
+La[4] <- "New Element"
+print(La)
+La[4] <-NULL
+print(La[4])
+l <-list(1,2,3,4)
+l1 <-list("Jan","Feb","Mar")
+m<-c(l,l1)
+print(m)
+
+list1 <- list(1:5)
+print(list1)
+list2 <-list(10:14)
+print(list2)
+v1 <- unlist(list1)
+v2 <- unlist(list2)
+print(v1)
+print(v2)
+result <- v1+v2
+print(result)
